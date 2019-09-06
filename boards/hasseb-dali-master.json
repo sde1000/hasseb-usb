@@ -1,0 +1,26 @@
+{
+  "build": {
+    "cpu": "cortex-m3",
+    "f_cpu": "48000000L",
+    "mcu": "lpc1343"
+  },
+  "debug": {
+    "jlink_device": "LPC1343",
+    "svd_path": "LPC13xx_svd_v1.svd"
+  },
+  "frameworks": [
+    "mbed"
+  ],
+  "name": "hasseb DALI Master",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 32768,
+    "protocol": "mbed",
+    "protocols": [
+      "jlink",
+      "mbed"
+    ]
+  },
+  "url": "foo",
+  "vendor": "foo"
+}
